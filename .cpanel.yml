@@ -1,6 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html
-    - /bin/rm -Rf $DEPLOYPATH/*
-    - /bin/cp -r * $DEPLOYPATH 
+    - /bin/rm -Rf /home/cabe0232/public_html/*
+    - /bin/cp -r /home/cabe0232/repositories/website-dist/* /home/cabe0232/public_html
