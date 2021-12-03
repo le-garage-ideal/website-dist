@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - /bin/rm -Rf /home/cabe0232/public_html/*
-    - /bin/cp -r /home/cabe0232/repositories/website-dist/* /home/cabe0232/public_html
+    - /bin/rm -Rf /home/cabe0232/www-perfect-garage/*
+    - /bin/cp -r /home/cabe0232/repositories/website-dist/* /home/cabe0232/www-perfect-garage
